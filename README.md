@@ -51,8 +51,10 @@ Join [the conversation in Slack](https://kubernetes.slack.com/messages/CM1QMQGS0
 
 You can also reach out to [@OktetoHQ](https://twitter.com/oktetohq) on Twitter.
 
+## Contributions
+
+We ❤️ contributions big or small. [See our guide](contributing.md) on how to get started.
+
 ## License
 
 **Remote - Kubernetes** is licensed under the Apache 2.0 License.
-
-This project adheres to the Contributor Covenant [code of conduct](code-of-conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to hello@okteto.com.

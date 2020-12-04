@@ -10,4 +10,6 @@ Not ready to contribute code, but see something that needs work? While we encour
 Also, check our [troubleshooting section](docs/troubleshooting.md) for known issues.
 
 ## Code of Conduct
-Please make sure to read and observe our [code of conduct](code-of-conduct.md).
+
+This project adheres to the Contributor Covenant [code of conduct](code-of-conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to hello@okteto.com.
+

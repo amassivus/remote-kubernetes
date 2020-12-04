@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.2.0
+- Support for starting more than one `okteto up` at the same time, great for monorepos!
+- Update to okteto `1.10.1`.
+
 ## 0.1.26
 - Update to okteto `1.8.12`.
 - Show more detail when `okteto up` fails.
