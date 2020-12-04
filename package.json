@@ -95,6 +95,11 @@
           "type": "string",
           "default": "",
           "description": "Absolute path to your kubeconfig file. When empty, it will fall back to KUBECONFIG and then to the default path"
+        },
+        "okteto.upArgs": {
+          "type": "string",
+          "default": "--loglevel=warn",
+          "description": "Extra arguments to pass to okteto up. You can use it to get debug logs, force a build before the up command, etc..."
         }
       }
     }
@@ -119,15 +124,15 @@
     "@types/vscode": "^1.51.0",
     "chai": "^4.2.0",
     "glob": "^7.1.6",
-    "mocha": "^7.1.2",
-    "ts-loader": "^7.0.4",
-    "ts-node": "^8.10.1",
-    "tslint": "^6.1.2",
-    "typescript": "^3.9.3",
-    "vsce": "^1.75.0",
-    "vscode-test": "^1.3.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "mocha": "^8.2.1",
+    "ts-loader": "^8.0.7",
+    "ts-node": "^9.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.5",
+    "vsce": "^1.81.1",
+    "vscode-test": "^1.4.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "@kubernetes/client-node": "^0.13.0",
@@ -135,14 +140,14 @@
     "@sentry/node": "^5.28.0",
     "@types/command-exists": "^1.2.0",
     "@types/download": "^6.2.4",
-    "@types/semver": "^7.2.0",
+    "@types/semver": "^7.3.4",
     "@types/user-home": "^2.0.0",
     "@types/yaml": "^1.9.7",
     "bufferutil": "^4.0.1",
     "change-case": "^4.1.2",
     "command-exists": "^1.2.9",
     "download": "^8.0.0",
-    "execa": "^4.0.1",
+    "execa": "^4.1.0",
     "fs": "^0.0.2",
     "get-port": "^5.1.1",
     "mixpanel": "^0.11.0",
